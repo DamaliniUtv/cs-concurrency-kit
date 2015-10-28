@@ -1,3 +1,22 @@
+Overview
+===========================
+This is a stripped version of the Spicy Pixel Concurrency Kit, used to integrate debuggable code in unity projects.
+Also alternated to enable support for Unity .Net2.0 Subset compatibility level.
+
+Integrate
+----------------
+Put SpicyPixel.Threading and SpicyPixel.Threading.Unity folders together with System.Threading.dll in Unity assets
+
+Generate dll
+----------------
+Checkout System.Threading folder, open solution i Visual Studio and build release version.
+Target framework should be .NET Framework 3.5
+
+Modifications
+----------------
+Following modifications have been done to support Unity .Net 2.0 Subset compatibility level:
+	- Call to ThreadPool.UnsafeQueueUserWorkItem have been replaced by ThreadPool.QueueUserWorkItem
+
 Spicy Pixel Concurrency Kit
 ===========================
 [Download it now in the Unity Asset Store](http://u3d.as/content/spicy-pixel/spicy-pixel-concurrency-kit)
