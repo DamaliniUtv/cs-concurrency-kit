@@ -5,7 +5,7 @@ Also alternated to enable support for Unity .Net2.0 Subset compatibility level.
 
 Integrate
 ----------------
-Put SpicyPixel.Threading and SpicyPixel.Threading.Unity folders together with System.Threading.dll in Unity assets
+Put SpicyPixel.Threading.dll, SpicyPixel.Threading.Unity.dll and System.Threading.dll in Unity assets
 
 Generate dll
 ----------------
